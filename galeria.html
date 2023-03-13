@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Galeria F1 WEB</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="estilos_galeria.css" title="style" />
+<style type="text/css">
+
+#galeria_1{
+    position: relative;
+    animation-name: movimiento_1;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+
+  }
+  @keyframes movimiento_1 {
+    from {left:-500px; top:-500px;}
+    to {left: 0px; top:-0px;}
+  }  
+
+  #galeria_2{
+    position: relative;
+    animation-name: movimiento_2;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+
+  }
+  @keyframes movimiento_2 {
+    from {right:-5000px; top:-5000px;}
+    to {right: 0px; top:-0px;}
+  }
+
+</style>
+</head>
+<body>
+
+<!-- menu desplegable, el cual sustituye al menu fijo, pero con las mismas características-->
+
+<nav id = "desplegable">
+  <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
+  <label for="abrir-cerrar">&#9776;</label>
+  <div id="sidebar" class="sidebar">
+      <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="registro.html">Registros</a></li>
+          <li><a href="clasificacion.html">Clasificaci&#243;n</a></li>
+      </ul>
+  </div>
+</nav>
+
+    
+<nav id ="introduccion">
+    <div>
+        <p>Aqui podremos ver una comparativa de los coches que competian en la F1 de 2005 con los coches de la temporada de F1 que esta por comenzar ya mismo.
+        </p>
+        </div>
+</nav>
+
+<nav id = "int2">
+    <div>
+        <p>
+            Estos son los coches que se utilizaban en la F1 en el a&ntildeo 2005
+        </p>
+    </div>
+</nav>
+
+<!-- galeria de imagenes de tamaño grande, contando con 6 imagenes que cada una ocupa 1/3 de pantalla-->
+
+<div id = "galeria_1">
+<div class="galeria_antigua">
+    <a target="_blank" href="MichaelSchumacherHO2005.png">
+      <img src="MichaelSchumacherHO2005.png" alt="Ferrari" width="600" height="400">
+    </a>
+    <div class="descripcion">Ferrari F2005</div>
+  </div>
+
+  <div class="galeria_antigua">
+    <a target="_blank" href="Alonso_(Renault)_qualifying_at_USGP_2005.png">
+      <img src="Alonso_(Renault)_qualifying_at_USGP_2005.png" alt="Renault" width="600" height="400">
+    </a>
+    <div class="descripcion">Renault R25</div>
+  </div>
+
+  <div class="galeria_antigua">
+    <a target="_blank" href="Pedro_de_la_Rosa_2005_Canadian_GP.png">
+      <img src="Pedro_de_la_Rosa_2005_Canadian_GP.png" alt="McLaren" width="600" height="400">
+    </a>
+    <div class="descripcion">McLaren MP4-20</div>
+  </div>
+
+  <div class="galeria_antigua">
+    <a target="_blank" href="Jenson_Button_2005_Canada.png">
+      <img src="Jenson_Button_2005_Canada.png" alt="Honda" width="600" height="400">
+    </a>
+    <div class="descripcion">Honda BAR 007</div>
+  </div>
+
+  <div class="galeria_antigua">
+    <a target="_blank" href="Nick_Heidfeld_Canadian_Grand_Prix_2005.png">
+      <img src="Nick_Heidfeld_Canadian_Grand_Prix_2005.png" alt="Williams" width="600" height="400">
+    </a>
+    <div class="descripcion">Williams FW27</div>
+  </div>
+
+  <div class="galeria_antigua">
+    <a target="_blank" href="Coulthard_RedBull_Canada2005.png">
+      <img src="Coulthard_RedBull_Canada2005.png" alt="Red Bull" width="600" height="400">
+    </a>
+    <div class="descripcion">Red Bull RB1</div>
+  </div>
+
+</div>
+
+
+<div id = "int3">
+        <p>
+            Estos son los coches que se utilizan este a&ntildeo 2023 para la nueva temporada de la F1
+        </p>
+</div>
+
+<!-- segunda galeria de imagenes, que se aplica el mismo estilo que con la primera galeria, pero es de un tamaño inferior-->
+
+<div id = "galeria_2">
+<div class="galeria_nueva">
+  <a target="_blank" href="Astonmartin-F1-2022-e1659361875597-1024x576.png">
+    <img src="Astonmartin-F1-2022-e1659361875597-1024x576.png" alt="Aston Martin" width="600" height="400">
+  </a>
+  <div class="descripcion">Aston Martin AMR23</div>
+</div>
+
+<div class="galeria_nueva">
+  <a target="_blank" href="2023-Alpine-blue.png">
+    <img src="2023-Alpine-blue.png" alt="Alpine" width="800" height="600">
+  </a>
+  <div class="descripcion">Alpine A523</div>
+</div>
+
+<div class="galeria_nueva">
+  <a target="_blank" href="Ferrari rear 3 4s.png">
+    <img src="Ferrari rear 3 4s.png" alt="Ferrari" width="600" height="400">
+  </a>
+  <div class="descripcion">Ferrari SF23</div>
+</div>
+
+<div class="galeria_nueva">
+  <a target="_blank" href="lando-norris-mclaren-mcl36-1.png">
+    <img src="lando-norris-mclaren-mcl36-1.png" alt="McLaren" width="600" height="400">
+  </a>
+  <div class="descripcion">McLaren MCL60</div>
+</div>
+
+<div class="galeria_nueva">
+    <a target="_blank" href="skysports-haas-f1-livery-launch_6042006.png">
+      <img src="skysports-haas-f1-livery-launch_6042006.png" alt="Haas" width="600" height="400">
+    </a>
+    <div class="descripcion">Haas VF23</div>
+</div>
+
+<div class="galeria_nueva">
+    <a target="_blank" href="formula-1-mercedes-launch-2023-2.png">
+      <img src="formula-1-mercedes-launch-2023-2.png" alt="Mercedes" width="600" height="400">
+    </a>
+    <div class="descripcion">Mercedes W14</div>
+</div>
+</div>
+
+
+</body>
+</html>

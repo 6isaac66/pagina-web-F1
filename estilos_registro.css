@@ -1,0 +1,128 @@
+#menu ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	
+	#menu ul li {
+	background-color:#03051c;
+	}
+	
+	#menu ul a {
+	display:block;
+	color:#fff;
+	font-weight:400;
+	font-size:15px;
+	padding:10px;
+	letter-spacing:1px;
+	}
+	
+	
+	#menu ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	}
+	
+	#menu ul li:hover {
+	background:#5b78a7;
+	}
+	
+	
+	#menu ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#eee;
+	padding:0;
+	}
+	
+	
+	#menu ul ul li {
+	float:none;
+	width:150px
+	}
+	
+	
+	#menu ul ul a {
+	line-height:120%;
+	padding:10px 15px;
+	}
+		
+	#menu ul li:hover > ul {
+	display:block;
+	}
+	
+	
+	#menu ul li:hover ul li{
+		float: right;
+		position:static;
+		display:flex;
+	
+	}
+		
+	
+	#menu{
+	position:fixed;
+	}
+
+*{box-sizing:border-box;}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:0px;
+	margin:auto;
+	background-color:#db283a;
+}
+
+form label{
+	width:90px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"],
+form select[type="country"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+
+form input[type="submit"],form input[type="reset"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+
+body{
+    background-image:url(https://childrens-binary.files.bbci.co.uk/childrens-binarystore/cbbc/F1-Guide-Teams.gif);
+    background-size: 100%;
+}
+
+#registro #terminos {
+width: 100%;
+}
+
+div{
+	display:flex;
+}

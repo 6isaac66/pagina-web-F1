@@ -1,0 +1,157 @@
+    body{
+        background-image:url(https://childrens-binary.files.bbci.co.uk/childrens-binarystore/cbbc/F1-Guide-Teams.gif);
+        background-size: 100%;
+    }
+    div.galeria_nueva {
+      margin: 5px;
+      border: 1px solid #ccc;
+      width: 25%;
+    }
+    
+    div.galeria_nueva:hover {
+      border: 1px solid #777;
+    }
+    
+    div.galeria_nueva img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.descripcion {
+      padding: 15px;
+      text-align: center;
+      background-color: rgb(88, 93, 100, 0.65);
+      color:white;
+    }
+
+    #galeria_2{
+      display:flex;
+      flex-wrap: wrap;
+      } 
+  
+    .galeria_nueva{
+      width: 20%;
+    }
+
+    
+    
+
+
+
+    div.galeria_antigua {
+      margin: 5px;
+      border: 1px solid #ccc;
+      width: 30%;
+    }
+    
+    div.galeria_antigua:hover {
+      border: 1px solid #777;
+    }
+    
+    div.galeria_antigua img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.descripcion {
+      padding: 15px;
+      text-align: center;
+      background-color: rgb(88, 93, 100, 0.65);
+      color:white;
+    }
+
+    #galeria_1{
+      display:flex;
+      flex-wrap: wrap;
+      } 
+  
+    .galeria_antigua{
+      width: 30%;
+    }
+
+
+
+    body {
+      font-size:100%;
+      margin:0;
+      padding:0;
+  }
+  
+  header {
+      background:#333;
+      color:#eee;
+      width:100%;
+  }
+  
+  input#abrir-cerrar {
+      visibility:hidden;
+      position: absolute;
+  }
+  
+  
+  label{
+      padding: 1em;
+      background-color:#03051c;
+      color:#fff;
+      display:inline-block;
+      width:100%;
+  }
+  
+  
+  #sidebar {
+      width:0;
+  }
+  
+  
+  input#abrir-cerrar:checked ~ #sidebar {
+      width:300px;
+  }
+  
+  input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
+      margin-left:300px;
+      transition: margin-left .4s;
+  }
+  
+  
+  .sidebar {
+      position: fixed;
+      height: 100%;
+      width: 0;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background-color: #03051c;
+      overflow-x: hidden;
+      transition: 1s;
+  }
+  
+  .sidebar ul, .sidebar li{
+      margin:0;
+      padding:0;
+      list-style:none inside;
+  }
+  
+  .sidebar li{
+      margin:0;
+      padding:0;
+      list-style:none inside;
+  }
+  
+  .sidebar ul {
+      margin: 4em auto;
+      display: block;
+      width: 80%;
+      min-width:200px;
+  }
+  
+  .sidebar a {
+      display: block;
+      font-size: 120%;
+      color: #eee;
+      text-decoration: none;
+      
+  }
+  
+  .sidebar a:hover{
+      background-color: #5b78a7;
+  }

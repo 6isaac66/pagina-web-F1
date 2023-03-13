@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLASIFICACION F1 WEB</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="estilos_clasificacion.css" title="style" />
+<style type="text/css">
+
+#tabla_pilotos{
+    position: relative;
+    animation-name: movimiento_pilotos;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+
+  }
+  @keyframes movimiento_pilotos {
+    from {left:-555px; top:0px;}
+    to {left: 430px; top:0px;}
+  }
+
+  #tabla_escuderias{
+    position: relative;
+    animation-name: movimiento_escuderias;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+
+  }
+  @keyframes movimiento_escuderias {
+    from {left:-555px; top:0px;}
+    to {left: -175px; top:-706px;}
+  }
+</style>
+
+<!-- mismo menu que en la pagina web inicial -->
+
+<nav id="menu">
+  <ul>
+   <li><a href="index.html">Inicio</a></li>
+
+   <li><a href="#">Escuderias</a>
+   <ul>
+    <li><a href="https://www.mercedesamgf1.com/en/">Mercedes</a>
+    <ul>
+      <li><a href="#">Lewis Hamilton</a></li>
+      <li><a href="#">George Russell</a></li>
+    </ul>
+    </li>
+    <li><a href="https://www.alpinecars.com">Alpine</a>
+      <ul>
+        <li><a href="#">Esteban Ocon</a></li>
+        <li><a href="#">Pierre Gasly</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.haasf1team.com">Haas</a>
+      <ul>
+        <li><a href="#">Niko Hulkenberg</a></li>
+        <li><a href="#">Kevin Magnussen</a></li>
+      </ul>
+    </li>
+    <li><a href="https://es.mclaren.com/racing/">McLaren</a>
+      <ul>
+        <li><a href="#">Lando Norris</a></li>
+        <li><a href="#">Oscar Piastri</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.redbullracing.com/int-es">Red Bull</a>
+      <ul>
+        <li><a href="#">Max Verstappen</a></li>
+        <li><a href="#">Sergio Perez</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.astonmartinf1.com/en-GB/">Aston Martin</a>
+      <ul>
+        <li><a href="#">Fernando Alonso</a></li>
+        <li><a href="#">Lance Stroll</a></li>
+      </ul>
+    </li>
+    <li><a href="https://scuderia.alphatauri.com/en/">Alpha Tauri</a>
+      <ul>
+        <li><a href="#">Yuki Tsunoda</a></li>
+        <li><a href="#">Nyck de Vries</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.ferrari.com/en-EN/formula1">Ferrari</a>
+      <ul>
+        <li><a href="#">Charles Lecrerc</a></li>
+        <li><a href="#">Carlos Sainz</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.alfaromeo.es/alfa-romeo-racing">Alpha Romeo</a>
+      <ul>
+        <li><a href="#">Valteri Bottas</a></li>
+        <li><a href="#">Guanyu Zhou</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.williamsf1.com">Williams</a>
+      <ul>
+        <li><a href="#">Alex Albon</a></li>
+        <li><a href="#">Logan Sargeant</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Pilotos:</a>
+      <ul>
+      </ul>
+   </ul>
+   </li>
+
+   <li><a href="#">Otras p&#225;ginas</a>
+   <ul>
+    <li><a href="registro.html">Registros</a></li>
+    <li><a href="galeria.html"> Galeria de Imagenes</a></li>
+    </ul>
+  </li>
+  </ul>
+  </nav>
+
+</head>
+
+<body>
+<!-- creacion de 2 tablas, una para pilotos y otra para escuderias, las 2 con el mismo
+estilo, diferenciando la primera linea de cada una
+cada una de estas tablas tiene un movimiento programado-->
+
+<nav id = "tabla_pilotos">
+    <table>
+        <thead>
+          <tr>
+            <th>Posicion</th>
+            <th>Piloto</th>
+            <th>Escuderias</th>
+            <th>Puntos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><name="RedBull">Max Verstappen</td>
+            <td>Red Bull</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Fernando Alonso</td>
+            <td>Aston Martin</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Lando Norris</td>
+            <td>McLaren</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Lance Stroll</td>
+            <td>Aston Martin</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>5</td>
+            <td>Sergio Perez</td>
+            <td>Red Bull</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>6</td>
+            <td>Charles Lecrec</td>
+            <td>Ferrari</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>7</td>
+            <td>Carlos Sainz</td>
+            <td>Ferrari</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>8</td>
+            <td>Lewis Hamilton</td>
+            <td>Mercedes</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>9</td>
+            <td>Oscar Piastri</td>
+            <td>McLaren</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>10</td>
+            <td>Valteri Bottas</td>
+            <td>Alpha Romeo</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>11</td>
+            <td>George Russell</td>
+            <td>Mercedes</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>12</td>
+            <td>Guanyu Zhou</td>
+            <td>Alpha Romeo</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>13</td>
+            <td>Logan Sargeant</td>
+            <td>Williams</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>14</td>
+            <td>Alex Albon</td>
+            <td>Williams</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>15</td>
+            <td>Nyck De Vries</td>
+            <td>Alpha Tauri</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>16</td>
+            <td>Yuki Tsunoda</td>
+            <td>Alpha Tauri</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>17</td>
+            <td>Niko Hulkenberg</td>
+            <td>Haas</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>18</td>
+            <td>Kevin Magnussen</td>
+            <td>Haas</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>19</td>
+            <td>Pierre Gasly</td>
+            <td>Alpine</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>20</td>
+            <td>Esteban Ocon</td>
+            <td>Alpine</td>
+            <td>-1</td>
+          </tr>
+          
+        </tbody>
+      </table>
+  </nav>
+
+
+<nav id = "tabla_escuderias">
+    <table>
+        <thead>
+          <tr>
+            <th>Posicion</th>
+            <th>Escuderia</th>
+            <th>Puntos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Red Bull</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Aston Martin</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>McLaren</td>
+            <td>0</td>
+          </tr>
+        <tr>
+            <td>4</td>
+            <td>Ferrari</td>
+            <td>0</td>
+          </tr>         <tr>
+            <td>5</td>
+            <td>Mercedes</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>6</td>
+            <td>Alpha Romeo</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>7</td>
+            <td>Williams</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>8</td>
+            <td>Alpha Tauri</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>9</td>
+            <td>Haas</td>
+            <td>0</td>
+          </tr>          <tr>
+            <td>10</td>
+            <td>Alpine</td>
+            <td>-1</td>
+          </tr>
+          
+        </tbody>
+      </table>
+  </nav>
+
+</body>
+</html>
